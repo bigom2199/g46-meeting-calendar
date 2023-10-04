@@ -31,7 +31,7 @@ public class User {
         return password;
     }
     public String  UserInfo(){
-        return "User " + username + "has been created successfully." + " PWD: " + password;
+        return "Username " + username + "password:"  + password;
 
     }
     public boolean isExpired(){

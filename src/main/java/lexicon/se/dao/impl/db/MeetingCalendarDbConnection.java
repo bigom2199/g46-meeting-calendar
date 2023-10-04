@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class MeetingCalendarDbConnection {
     private  static String DB_NAME ="MEETING_CALENDAR_DB";
 
-    private static final String JDBC_URL="jdbc:mysql//localhost:3306/" + DB_NAME;
+    private static final String JDBC_URL="jdbc:mysql://localhost:3306/" + DB_NAME;
     private  static final String JDBC_USERNAME ="root";
     private static final String JDBC_PASSWORD= "root"; // 1234
 
